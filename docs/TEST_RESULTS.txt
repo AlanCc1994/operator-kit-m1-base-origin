@@ -1,0 +1,28 @@
+PASS A 外部初始化
+PASS B 外部初始化
+PASS A 初始化后目录验证
+PASS 模板占位符导致配置验证失败
+PASS A 配置验证
+PASS B 配置验证
+PASS 重复初始化幂等
+PASS 实例配置没有被覆盖
+PASS 外部初始化没有在 Kit 中生成 operator.env
+PASS 拒绝在 Kit 内创建新实例
+PASS legacy 只允许 Kit 根自身而不允许子目录
+PASS 拒绝实例父路径包含 Kit
+PASS full 阶段未实现时明确拒绝
+PASS 验证明确指定的配置文件
+PASS 拒绝外部配置文件
+PASS 状态目录越界导致失败
+PASS 恢复合法配置后验证通过
+PASS 阻止配置覆盖 OPERATOR_HOME
+PASS 拒绝不安全配置权限
+PASS 恢复 600 权限
+PASS 拒绝越界 symlink 状态目录
+PASS 纯离线测试
+PASS 只读 Kit 下初始化外部实例
+PASS 只读 Kit 下实例目录检查
+
+===== M1 TEST SUMMARY: PASS=24 FAIL=0 =====
+M1_ASSEMBLER_TEST=PASS synthetic_upstream=true actual_private_upstream_tested=false
+M1_ALL_TESTS=PASS

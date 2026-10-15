@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# TEMPLATE ONLY. Never embed a real password in the shared kit or commit it.
+echo "REPLACE-WITH-CREDENTIAL" >&2
+exit 4

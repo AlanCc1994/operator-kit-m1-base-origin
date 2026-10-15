@@ -1,0 +1,14 @@
+# Kit itself must not contain runtime instances, credentials or browser profiles.
+operator.env
+operator.*.env
+.env
+_ssh/askpass.sh
+project/project.env
+project/identity/*.sha256
+state/
+incoming/
+chrome-cdp-profile/
+firefox-profile/
+dist/
+*.log
+__pycache__/

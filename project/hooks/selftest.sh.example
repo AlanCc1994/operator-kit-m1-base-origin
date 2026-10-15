@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# M1 skeleton: implement project-specific selftest hook in the INSTANCE, not in Kit.
+set -euo pipefail
+printf 'M1_HOOK_UNIMPLEMENTED selftest\n' >&2
+exit 4
